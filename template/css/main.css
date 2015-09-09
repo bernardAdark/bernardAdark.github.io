@@ -34,7 +34,7 @@ h3 {
 
 .siz{
   width: 250px;
-  height: 200px;
+  height: 150px;
 }
 .sic{
   color: blue;
@@ -75,6 +75,17 @@ h3 {
 .parallax textarea:hover {
   font-weight: 300;
   color: #fff;
+}
+
+.back1{
+  background-color: #00BFFF;
+   text-transform: uppercase;
+  font-size: 16px;
+}
+
+.back2{
+  background-color: #00BFFF;
+
 }
 
 .btn {
@@ -158,11 +169,18 @@ section {
   text-transform: uppercase;
   z-index: 15;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 150;
   color: #fff;
 }
 
 #home-slider .caption h1 {
+  color: #fff;
+  font-size: 60px;
+  font-weight: 500;
+  margin-bottom: ;
+}
+
+.othercaption  {
   color: #fff;
   font-size: 60px;
   font-weight: 700;
@@ -333,11 +351,12 @@ section {
   margin-top: 35px;
 }
 
+
 /*************************
 ********About CSS*******
 **************************/
 #about-us {
-  background-image: url(../images/about-bg.jpg);
+  background-image: url(../img/img1.jpg);
   padding: 60px 0;
 }
 
@@ -349,6 +368,7 @@ section {
 #about-us .lead {
   font-size: 16px;
   margin-bottom: 10px;
+
 }
 
 #about-us h1 {
@@ -580,6 +600,12 @@ section {
 
 #team .img-responsive {
   width: 100%;
+}
+
+.resize{
+  border-radius: 50%;
+  width: 80px;
+  height: 60px;
 }
 
 .member-info h3 {
@@ -865,8 +891,13 @@ section {
 **************************/
 
 #contact {
-  padding-top: 45px;
+  padding-top: 0px;
   padding-bottom: 0;
+}
+
+.carousiz{
+  height: 420px;px;
+  
 }
 
 #google-map {
@@ -874,7 +905,7 @@ section {
 }
 
 #contact-us {
-  background-image:url(../images/contact-bg.jpg);
+  background-image:url(../img/DSCF5389.JPG);
   padding-bottom: 90px; 
 }
 
@@ -905,10 +936,17 @@ textarea.form-control {
 }
 
 ul.address {
-  margin-top: 30px;
+  margin-top: 10px;
   list-style: none;
   padding: 0;
   margin: 0;
+  text-align: left;
+  font-size: 20px;
+}
+
+.ami{
+  font-size: 20px;
+
 }
 
 .contact-info ul li {
@@ -938,7 +976,7 @@ ul.address {
 }
 
 #footer .footer-bottom {
-  background-color: #fff;
+  background-color: #696969;
   padding: 20px 0 10px;
 }
 
