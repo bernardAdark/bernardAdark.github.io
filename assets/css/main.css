@@ -98,10 +98,10 @@ a:active {
       -o-transition: background 1s;
       transition: background 1s; }
 
-.mb-7 {
+/*.mb-7 {
   margin-bottom: 100px;
   padding-top: -100px;
-   }
+   }*/
   
 .centered {
 	text-align: center;
@@ -114,7 +114,8 @@ a:active {
    =========================*/
 .cir{
 border-radius: 50%;
-margin-left: 10px;
+margin-top: 10px;
+margin-left: 20px;
 }
 
 #hero,
@@ -124,19 +125,21 @@ margin-left: 10px;
 
 .hero-block,
 .footer-block {
-  height: 430px;
+  height: 100%;
   width: 100%;
   position: absolute;
   top: 50%;
-  margin-top: -295px; }
+  margin-top: -295px; 
+  }
 
 .hero-image {
- /* width: 70%;
-  height: 100%;*/
+  margin-top: 20px;
+  width: 80%;
+  height: 80%;
    }
 
 .footer-block {
-  height: 180px;
+  height: 600px;
   margin-top: -90px; }
 
 #hero {
@@ -164,8 +167,8 @@ margin-left: 10px;
    =========================*/
 .imgsize{
 
-  width: 200px;
-  height: 180px;
+  width: 160px;
+  height: 160px;
   padding-top: 10px;
   padding-bottom: 30px;
 }
@@ -306,8 +309,9 @@ ul, menu, dir {
 
 }
 .me{
-  width: 100%;
+  width: 90%;
   height: 80%;
+  background: rgba(231, 76, 60, 0.9);  
 
   
 }
